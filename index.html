@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Search</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">PriceWar</h1>
+      <div class="search-single">
+        <input type="text" placeholder="Enter Product" spellcheck="false" id="searchInput">
+        <button onclick="searchProduct()"><img src="search.png" alt="search icon" class="btn"></button>
+      </div>
+    </header>
+    <div class="container">
+      <div class="card amazon" id="amazonCard">
+        <h2>Amazon</h2>
+        <div class="product-info" id="amazonProductInfo">
+          <h3>Price:</h3>
+          <h3>Rating:</h3>
+
+        </div>
+      </div>
+      <div class="card flipkart" id="flipkartCard">
+        <h2>Flipkart</h2>
+        <div class="product-info" id="flipkartProductInfo">
+            <h3>Price:</h3>
+            <h3>Rating:</h3>
+        </div>
+      </div>
+    </div>
+    <div id="notAvailable" style="display: none; text-align: center; color: #fff; margin-top: 20px;">
+      <h2>Product not available</h2>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

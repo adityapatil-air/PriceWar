@@ -1,0 +1,116 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+    position: relative;
+  }
+  
+  .title {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    margin: 0;
+    font-size:22px ;
+  }
+
+.search-single {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto; /* Space above and below the search box */
+}
+
+.search-single input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search-single img {
+    height: 38px;
+}
+
+.search-single button {
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    max-width: 470px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.amazon {
+    background: linear-gradient(135deg, #FF9900, #4B4B4B); /* Amazon colors with a touch of black/grey */
+}
+
+.flipkart {
+    background: linear-gradient(135deg, #2874F0, #FFDD00); /* Flipkart colors */
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.product-info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-info .rating {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-info .price {
+    font-size: 24px;
+}
+
+#notAvailable {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
